@@ -1,6 +1,6 @@
-import gym
+import gymnasium as gym
+from gymnasium import spaces
 import numpy as np
-from gym import spaces
 from environment import create_environment
 from pheromone import evaporate_pheromone, deposit_pheromone
 from patrol import choose_next_node
